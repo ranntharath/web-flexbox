@@ -236,6 +236,7 @@ footer span {
     width: calc((100% - 20px) / 2);
   }
   .footer-article article {
+    justify-content: center;
     width: calc((100% - 20px) / 2);
   }
 }
@@ -248,6 +249,7 @@ footer span {
   .card-container > article {
     width: 100%;
   }
+  
 }
 .fa-arrow-up {
   color: white;

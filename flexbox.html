@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <link
@@ -12,6 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <header class="web-header">
@@ -46,7 +47,56 @@
           </ul>
         </div>
         <div class="card-container">
-          <article class="card1" >
+          <article class="card1" data-aos="fade-up" >
+            <div class="image-container">
+              <i class="fa-solid fa-bookmark" style="color: #ffd43b"></i>
+              <img
+                src="https://campus.w3schools.com/cdn/shop/files/react_930c122c-8d12-4a0a-85ef-67ca7e78bccf_1200x1200.png?v=1734688338"
+                alt="cat"
+              />
+            </div>
+            <div class="description">
+              <div class="card-status">
+                <span>All level</span>
+                <i class="fa-solid fa-heart" style="color: #ff0000"></i>
+              </div>
+              <div class="information">
+                <h3>Web Design</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                  modi laudantium minima numquam mollitia, ipsam necessitatibus
+                  magnam est repudiandae quod illo, quos cum quia voluptatibus
+                  commodi doloribus distinctio ab rem?
+                </p>
+                <p class="rate-cont">
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i
+                    class="fa-solid fa-star-half-stroke"
+                    style="color: #ffd43b"
+                  ></i>
+                  <span>4.5/5</span>
+                </p>
+                <hr />
+              </div>
+              <div class="date" >
+                <span>
+                  <i class="fa-solid fa-clock" style="color: #ff0000"></i> 12h
+                  56m
+                </span>
+                <span
+                  ><i
+                    class="fa-solid fa-calendar-days"
+                    style="color: #ffd43b"
+                  ></i>
+                  12 lectures</span
+                >
+              </div>
+            </div>
+          </article>
+          <article class="card2" data-aos="fade-up">
             <div class="image-container">
               <i class="fa-solid fa-bookmark" style="color: #ffd43b"></i>
               <img
@@ -95,7 +145,7 @@
               </div>
             </div>
           </article>
-          <article class="card2">
+          <article class="card3" data-aos="fade-up">
             <div class="image-container">
               <i class="fa-solid fa-bookmark" style="color: #ffd43b"></i>
               <img
@@ -144,7 +194,7 @@
               </div>
             </div>
           </article>
-          <article class="card3">
+          <article class="card4" data-aos="fade-up">
             <div class="image-container">
               <i class="fa-solid fa-bookmark" style="color: #ffd43b"></i>
               <img
@@ -193,7 +243,7 @@
               </div>
             </div>
           </article>
-          <article class="card4">
+          <article class="card5" data-aos="fade-up">
             <div class="image-container">
               <i class="fa-solid fa-bookmark" style="color: #ffd43b"></i>
               <img
@@ -242,7 +292,7 @@
               </div>
             </div>
           </article>
-          <article class="card5">
+          <article class="card6" data-aos="fade-up">
             <div class="image-container">
               <i class="fa-solid fa-bookmark" style="color: #ffd43b"></i>
               <img
@@ -291,7 +341,7 @@
               </div>
             </div>
           </article>
-          <article class="card6">
+          <article class="card7" data-aos="fade-up">
             <div class="image-container">
               <i class="fa-solid fa-bookmark" style="color: #ffd43b"></i>
               <img
@@ -340,56 +390,7 @@
               </div>
             </div>
           </article>
-          <article class="card7">
-            <div class="image-container">
-              <i class="fa-solid fa-bookmark" style="color: #ffd43b"></i>
-              <img
-                src="https://campus.w3schools.com/cdn/shop/files/react_930c122c-8d12-4a0a-85ef-67ca7e78bccf_1200x1200.png?v=1734688338"
-                alt="cat"
-              />
-            </div>
-            <div class="description">
-              <div class="card-status">
-                <span>All level</span>
-                <i class="fa-solid fa-heart" style="color: #ff0000"></i>
-              </div>
-              <div class="information">
-                <h3>Web Design</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                  modi laudantium minima numquam mollitia, ipsam necessitatibus
-                  magnam est repudiandae quod illo, quos cum quia voluptatibus
-                  commodi doloribus distinctio ab rem?
-                </p>
-                <p class="rate-cont">
-                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-                  <i
-                    class="fa-solid fa-star-half-stroke"
-                    style="color: #ffd43b"
-                  ></i>
-                  <span>4.5/5</span>
-                </p>
-                <hr />
-              </div>
-              <div class="date">
-                <span>
-                  <i class="fa-solid fa-clock" style="color: #ff0000"></i> 12h
-                  56m
-                </span>
-                <span
-                  ><i
-                    class="fa-solid fa-calendar-days"
-                    style="color: #ffd43b"
-                  ></i>
-                  12 lectures</span
-                >
-              </div>
-            </div>
-          </article>
-          <article class="card8">
+          <article class="card8" data-aos="fade-up">
             <div class="image-container">
               <i class="fa-solid fa-bookmark" style="color: #ffd43b"></i>
               <img
@@ -486,4 +487,8 @@
       </div>
     </footer>
   </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
